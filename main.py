@@ -2,7 +2,6 @@ from utils.requester import get_data_by_url
 
 
 def main():
-
     url = f'http://{input("Введите адрес сайта: ")}'
     print(f'Отправляем запрос к {url}')
     data = get_data_by_url(url)
